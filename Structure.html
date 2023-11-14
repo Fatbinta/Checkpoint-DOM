@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Checkpoint DOM</title>
+  <meta charset="utf-8" />
+  <link href="Test.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lien.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.cs">
+  <title>caroussel</title>
+</head>
+<body>
+
+  <div class="sticky-top">   
+  <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" style="color: brown;">TROUVER VOS PRODUITS DE SAISON</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Produits" aria-label="Search">
+          </form>
+        </div><br><div><p></p></div>
+        </div>
+      </nav>
+      <div class="nav justify-content-center">
+      <div id="caroussel">
+        <div class="images" style="width: 100%,">
+          <img src="Melon Charentais.jpg" style="width: max-content;" alt="Produit 1">
+          <img src="Papaye red royal.jpg" style="width: 80%;" alt="Produit 2">
+          <img src="Piment bec d'oiseau.jpg" style="width: 80%;" alt="Produit 3">
+          <img src="Papaye solo.jpg" style="width: 80%;" alt="Produit 4">              
+          <img src="Piment Sofia.jpg" style="width: 80%;" alt="Produit 5">
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+      <script src="lien.js"></script>
+      <div class="nav justify-content-center">
+      <br><div><p></p></div> 
+      <div class="box-cart-bottom">
+        <!-- quantity wanted -->
+        <div id="quantity_wanted_p" class="button">
+          <label for="quantity_wanted" class="sr-only" style="color: red;">Quantit&eacute;</label>
+          <div class="quantity_choice">
+          </div>
+        </div>
+            <button class="button-moins">-</button>
+            <span class="produit-quantite">0</span>
+            <button class="button-plus">+</button>
+            <br><div><p>0 FCFA</p></div></button>
+            <div><i class="bi bi-trash3-fill"></div>
+
+
+              <div class="container"></div>
+        <h2 id="titre-panier">
+        <button class="btn btn-outline-success" style="background-color: rgb(140, 224, 140);" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+        </svg>Ajouter des produits au panier</button><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg></a>
+      </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+</html>

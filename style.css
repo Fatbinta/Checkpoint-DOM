@@ -1,0 +1,57 @@
+.images {
+    display: flex;
+    animation-duration: 5s;
+    animation-name: Produits;
+    animation-iteration-count: infinite;
+}
+img {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+#caroussel {
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+}
+@keyframes Produits {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-500px);
+    }
+    40% {
+        transform: translateX(-1000px);
+    }
+    60% {
+        transform: translateX(-1500px);
+    }
+    80% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* Active links */
+a:active {
+    color: red;
+  }
+
+
+  .fa-heart {
+    color: #FFF;
+    background-color: #000;
+    border-radius: 50%;
+    padding:.2em;
+}
+.fa-heart::before {
+    content: "\f004";
+    font-weight: bold;
+    transition: color 1s ease-out;
+}
+.fa-heart:hover::before{
+    color: red;
+    cursor: pointer;
+}
